@@ -1,0 +1,21 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --require dotenv/config index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-session": "^1.17.2"
+  }
+}
